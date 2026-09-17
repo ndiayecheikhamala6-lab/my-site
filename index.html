@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Exemple </title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 id="titre-principal">Bienvenue sur ma page</
-h1>
-<p class="texte">
-Ceci est un paragraphe d’introduction.
-</p>
-<div class="container">
-<p class="texte">Premier texte dans le
-conteneur</p>
-<p class="texte">Deuxieme texte dans le
-conteneur</p>
-<span class="badge">Badge</span>
-</div>
-<div id="zone-absolue">
-<p>Texte place en absolu</p>
-</div>
+ 
+  <header>
+    <h1>Prénom Nom</h1>
+    <p>Étudiant(e) en analyse de données</p>
+  </header>
+ 
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+ 
+  <main>
+ 
+    <section id="apropos">
+      <h2>À propos de moi</h2>
+      <p>
+        Je suis étudiant(e) et je travaille sur des projets d'analyse de données appliquée.
+        Ce site présente mes projets réalisés dans le cadre de mes études.
+      </p>
+    </section>
+ 
+    <section id="projets">
+      <h2>Mes projets</h2>
+ 
+      <div class="projet">
+        <h3>Nom du projet 1</h3>
+        <p>Courte description du projet : contexte, outils utilisés, résultats obtenus.</p>
+        <a href="#">Voir le projet</a>
+      </div>
+ 
+      <div class="projet">
+        <h3>Nom du projet 2</h3>
+        <p>Courte description du projet : contexte, outils utilisés, résultats obtenus.</p>
+        <a href="#">Voir le projet</a>
+      </div>
+ 
+      <div class="projet">
+        <h3>Nom du projet 3</h3>
+        <p>Courte description du projet : contexte, outils utilisés, résultats obtenus.</p>
+        <a href="#">Voir le projet</a>
+      </div>
+ 
+    </section>
+ 
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email : monadresse@email.com</p>
+      <p>GitHub : <a href="https://github.com/tonpseudo" target="_blank">github.com/tonpseudo</a></p>
+      <p>LinkedIn : <a href="#" target="_blank">Mon profil LinkedIn</a></p>
+    </section>
+ 
+  </main>
+ 
+  <footer>
+    <p>&copy; 2026 Prénom Nom</p>
+  </footer>
+ 
 </body>
 </html>
