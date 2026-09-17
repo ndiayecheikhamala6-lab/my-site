@@ -1,0 +1,40 @@
+zone10 {--color1: purple;
+}
+/* le titre */
+zone1 {
+font-size: 32px;
+color: zone6
+text-shadow: 2px 2px 4px gray;
+margin: 20px;
+}
+/* un selecteur */
+zone2 {
+position: relative;
+margin: 30px;
+border: 1px solid black;
+padding: 15px;
+}
+/* pour un selecteur enfant d’un autre selecteur */
+zone3 {
+font-size: 40px;
+margin: 5px 0;
+}
+/* pour un autre selecteur */
+zone4 {
+position: zone8;
+top: 10px;
+right: 10px;
+zone9: orange;
+padding: 5px 10px;
+border-radius: 10px;
+font-size: 12px;
+color: white;
+}
+/* et pour le dernier selecteur */
+zone5 {
+position: absolute;
+bottom: 20px;
+right: 20px;
+padding: 10px;
+border: 2px solid blue;
+}
