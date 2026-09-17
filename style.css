@@ -1,40 +1,90 @@
-zone10 {--color1: purple;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/* le titre */
-zone1 {
-font-size: 32px;
-color: zone6
-text-shadow: 2px 2px 4px gray;
-margin: 20px;
+ 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fafafa;
 }
-/* un selecteur */
-zone2 {
-position: relative;
-margin: 30px;
-border: 1px solid black;
-padding: 15px;
+ 
+/* ---- En-tête ---- */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
-/* pour un selecteur enfant d’un autre selecteur */
-zone3 {
-font-size: 40px;
-margin: 5px 0;
+ 
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
 }
-/* pour un autre selecteur */
-zone4 {
-position: zone8;
-top: 10px;
-right: 10px;
-zone9: orange;
-padding: 5px 10px;
-border-radius: 10px;
-font-size: 12px;
-color: white;
+ 
+/* ---- Navigation ---- */
+nav {
+  background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
 }
-/* et pour le dernier selecteur */
-zone5 {
-position: absolute;
-bottom: 20px;
-right: 20px;
-padding: 10px;
-border: 2px solid blue;
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+ 
+nav a:hover {
+  text-decoration: underline;
+}
+ 
+/* ---- Contenu principal ---- */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+ 
+section {
+  margin-bottom: 50px;
+}
+ 
+section h2 {
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+ 
+/* ---- Projets ---- */
+.projet {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+ 
+.projet h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+ 
+.projet a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+ 
+/* ---- Pied de page ---- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
 }
